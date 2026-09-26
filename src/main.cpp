@@ -66,7 +66,7 @@ int main() {
 
   while(!WindowShouldClose()) { 
     PollInputEvents();
-    for(auto i{ 0uz}; i < 500; i++) {
+    for(auto i{ 0uz}; i < 100; i++) {
       estimation.update();
     }
 
